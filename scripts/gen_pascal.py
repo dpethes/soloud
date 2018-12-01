@@ -8,8 +8,8 @@ fo = open("../glue/soloud.pas", "w")
 C_TO_PAS_TYPES = {
     "int":"integer",
     "void":"void",
-    "const char *":"PChar",  # add extra const check on key? it's not that important
-    "char *":"PChar",
+    "const char *":"PAnsiChar",  # add extra const check on key? it's not that important
+    "char *":"PAnsiChar",
     "unsigned int":"longword",
     "float":"single",
     "double":"double",
